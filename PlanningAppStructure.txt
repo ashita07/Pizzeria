@@ -1,0 +1,27 @@
+//application for one or more pizzas
+//no user accounts or login : user just input there names before using the app
+//usrs can add multiple orders to the cart before ordering
+//Ordering requires just the users name , phone no. and address
+
+**FEATURE CATEGORIES**
+1.user
+2.menu
+3.cart
+4.Order 
+
+**NECESSARY PAGES**
+1.homepage
+2.pizza menu
+3.cart
+4.placing a new order
+5.Looking up an order
+
+**State management **
+user->global ui
+Menu->global remote
+cart->global ui
+order->global remote
+
+Global Remote State refers to application state that is:
+1️⃣ Global → Accessible from anywhere in your app.
+2️⃣ Remote → Stored outside the local component state, typically in a centralized location like a **Redux store, server,
