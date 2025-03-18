@@ -1,4 +1,5 @@
 // Test ID: IIDSAT
+/* eslint-disable react/prop-types */
 
 import {
   calcMinutesLeft,
