@@ -25,3 +25,7 @@ order->global remote
 Global Remote State refers to application state that is:
 1️⃣ Global → Accessible from anywhere in your app.
 2️⃣ Remote → Stored outside the local component state, typically in a centralized location like a **Redux store, server,
+
+
+""""""**data loaers data actions data fetchers**
+since react 6.4 if we want to use any fo these its best to use createBrowzerRouter""""""
