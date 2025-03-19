@@ -1,4 +1,5 @@
 import { formatCurrency } from "../../utils/helpers";
+/* eslint-disable react/prop-types */
 
 function OrderItem({ item, isLoadingIngredients, ingredients }) {
   const { quantity, name, totalPrice } = item;
