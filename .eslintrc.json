@@ -2,6 +2,7 @@
   "extends": "react-app",
   "rules": {
     "react/prop-types": "off",
-    "no-unused-vars": "off" // 🔥 Disable prop-types rule
+    "no-unused-vars": "off",
+    "react/react-in-jsx-scope": "off" // 🔥 Disable prop-types rule
   }
 }
