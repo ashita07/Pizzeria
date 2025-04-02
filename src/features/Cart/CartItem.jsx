@@ -1,5 +1,6 @@
-import Button from '../../ui/Button';
+// import Button from '../../ui/Button';
 import { formatCurrency } from '../../utils/helpers';
+import DeleteItem from './DeleteItem';
 /* eslint-disable react/prop-types */
 
 function CartItem({ item }) {
@@ -16,7 +17,7 @@ function CartItem({ item }) {
 
       <div className="flex items-center sm:gap-6">
         <p className="text-sm font-bold">{formatCurrency(totalPrice)}</p>
-        <Button type="small">Delete</Button>
+        <DeleteItem pizzaId={pizzaId} />
       </div>
     </li>
   );
